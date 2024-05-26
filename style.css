@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Madimi+One&family=Passion+One:wght@400;700;900&family=Press+Start+2P&family=Rakkas&display=swap');
+
+
+:root{
+ --fonte1: "Passion One", sans-serif;
+ --dan: rgb(189, 189, 197);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header{
+  background-color: rgb(0, 0, 2); 
+  font-size: 50px; 
+  color: white;
+  text-align: center;
+  font-variant: small-caps;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte1);
+}
+
+header > h1 > p {
+ padding-bottom: 50px;
+}
+
+section.normal{
+    background-color: black;
+    color: var(--dan);
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+section.imagem{
+    
+    background-color: rgba(77, 77, 77, 0.315);
+    color: white;
+   box-shadow: inset 6px 6px 13px 0px black;
+   background-attachment: fixed;
+}
+section.normal > p {
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 400px;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.imagem > p {
+    background-color: rgb(0, 0, 2); 
+    width: 400px;
+
+}
+section#olfato{
+    background-color: rgb(0, 0, 2); 
+    background-image: url("olfato.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-size: cover; */
+}
+section#paladar{
+    background-image: url(paladar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+section#visao{
+    background-image: url(visao.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+} 
+section#audicao{
+    background-image: url(aldiçao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+section#tato{
+    background-image: url(tato.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+
+} 
+h1{
+    color: rgb(245, 241, 241);
+}

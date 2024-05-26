@@ -1,0 +1,12 @@
+body{
+    background-color: blue;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+#image1{
+    box-shadow: 10px 7px 20px gold;
+}
+#image2{
+    filter: drop-shadow(10px 7px 10px orange);
+}
